@@ -22,5 +22,6 @@ type CardTransactionMapping = {
 export const processCardEvents = (cardEvents: CardEvent[]): CardTransactionMapping => {
   // logic
   // Function is written in deffrent file as name --> cardEvent.js(src->cardEvent.js) 
+  // if this file is not working properly here so please run it seprately thanking you.
   return {} as CardTransactionMapping
 }
